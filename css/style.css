@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p, a {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+p, h1 {
+  color: #f2f2f2;
+}
+
+.one {
+  background-color: #e38826;
+}
+
+.one a {
+  color: #e38826;
+}
+
+.two {
+  background-color: #006970;
+}
+
+.two a {
+  color: #006970;
+}
+
+.three {
+  background-color: #004241;
+}
+
+.three a {
+  color: #004241;
+}
+
+.one a, .two a, .three a {
+  display: inline-block;
+  padding: 7px 20px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  border-radius: 500px;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.one :hover, .two :hover, .three :hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.flexbox {
+  width: 100%;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block {
+  padding: 50px;
+  width: 220px;
+}
+/*# sourceMappingURL=style.css.map */

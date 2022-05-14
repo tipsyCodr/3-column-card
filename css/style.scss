@@ -1,0 +1,76 @@
+// Primary
+$bright_orange: hsl(31, 77%, 52%);
+$dark_cyan: hsl(184, 100%, 22%);
+$very_dark_cyan: hsl(179, 100%, 13%);
+
+// Typography
+$transparent_white: hsla(0, 0%, 100%, 0.75);
+$very_light_gray: hsl(0, 0%, 95%);
+$size: 15px;
+
+// Fonts
+$primary_font: 'Big Shoulders Display', cursive;
+$sec_font: 'Lexend Deca', sans-serif;
+
+h1{
+    font-family: $primary_font;
+}
+p,a{
+    font-family: $sec_font;
+    font-size: $size;
+    line-height: 30px;
+}
+p,h1{
+    color:$very_light_gray
+}
+
+// Colors
+
+.one{
+    background-color: $bright_orange;
+    a{
+        color: $bright_orange;
+    }
+}
+.two{
+    background-color: $dark_cyan;
+    a{
+        color: $dark_cyan;
+    }
+}
+.three{
+    background-color: $very_dark_cyan;
+    a{
+        color: $very_dark_cyan;
+    }
+}
+
+.one,.two,.three{
+    a{
+        display: inline-block;
+        padding: 7px 20px;
+        margin-top: 50px;
+        background-color: $very_light_gray;
+        border-radius: 500px;
+        text-decoration: none;
+        border: 2px solid white;
+    }:hover{
+        background-color: hsla(0, 0%, 100%, 0);
+        color: white;
+    }
+}
+
+
+//Layout
+.flexbox{
+    width: 100%;
+    padding-top: 60px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.block{
+    padding: 50px;
+    width: 220px;
+}
